@@ -25,10 +25,10 @@ $(call inherit-product, vendor/slim/config/common_ledflash.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
-PRODUCT_NAME := slim_mako
+PRODUCT_NAME := illusion_mako
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/mako:4.3/JSS15J/573038:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.3 JSS15J 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/mako:4.3/JLS36C/573038:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.3 JLS36C 573038 release-keys"
 
